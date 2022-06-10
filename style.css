@@ -50,7 +50,6 @@
   padding: 1%;
   font-size: 16px;
   border-radius: 10px 10px 0px 0px;
-
   color: white;
   word-spacing: 0.2em;
 }
@@ -72,34 +71,82 @@
 }
 
 .task-2 {
-  background-color: rgb(255, 248, 221);
+  background-color: rgb(248, 246, 240);
 }
 .task-22 {
-  background-color: rgb(211, 211, 211);
+  background-color: rgb(243, 243, 243);
 }
 .task-222 {
-  background-color: rgb(248, 248, 248);
+  background-color: rgb(250, 250, 250);
 }
 
 .sec-1 {
   background: rgb(239, 238, 238);
+  border-radius: 20px;
+}
+
+.sec-11 {
   border-radius: 10px;
 }
 
-.sec-11{
-    border-radius: 10px;
+#sidebar {
+  width: 14%;
+  height: 96%;
+  background: rgb(255, 255, 255);
+  z-index: 1;
+  border: 20px;
+  position: fixed;
+  box-shadow: 1px 2px 4px 1px rgb(183, 182, 182);
+  left: -11%;
+}
+#sidebar.active {
+  left: 0;
+}
+#sidebar li {
+  color: #000;
+  font-size: 16px;
+  margin-left: 30%;
+  padding-bottom: 6%;
+}
+.bar {
+  position: absolute;
+  left: 84%;
+  top: 15px;
+}
+.bar2 {
+  font-size: 20px;
+}
+.bar3 {
+  color: #000;
+}
+.bar3 li {
+  color: #000;
+}
+#sidebar h3 {
+  width: 106%;
+  color: #fff;
+  background: #000;
+  padding: 3%;
+  height: 50px;
+  border-radius: 0px 10px 10px 0px;
+  padding-bottom: 10%;
+}
+.bar span {
+  display: block;
+  width: 30px;
+  height: 5px;
+  background: rgb(255, 255, 255);
+  margin: 3px;
 }
 
 .sec-1 p {
-  background: rgb(239, 238, 238);
   color: #000;
 }
 .sec-2 {
   background: rgb(239, 238, 238);
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .sec-2 p {
-  background: rgb(239, 238, 238);
   color: #000;
 }
 .text {
@@ -113,7 +160,7 @@
   margin-left: 5%;
   height: 110%;
   border: 1px solid white;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 1px 1px 4px 2px rgb(234, 234, 234);
 }
 .sub-btn {
@@ -126,23 +173,34 @@
 
 .text-2 {
   background: rgb(239, 238, 238);
+  border-radius: 20px;
 }
 
 .text-2 p {
-  text-align: center;
+  text-align: start;
   background: rgb(239, 238, 238);
   color: #000;
-  border-radius: 20px !important;
+  border-radius: 20px;
 }
 text-2 > input {
   width: 100%;
 }
-.text-part-3{
-    height: 190px;
-    width: 100%;
-    border-radius: 20px;
-    border: 1px solid rgb(255, 255, 255);
-    box-shadow: 1px 1px 5px 3px rgb(238, 238, 238);
-    color: #888888;
-    margin-top: 10%;
+.text-part-3 {
+  height: 190px;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 1px 1px 5px 3px rgb(238, 238, 238);
+  color: #888888;
+}
+.fa-pen {
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cont-body{
+	box-shadow: 1px 1px 5px 3px rgb(238, 238, 238);
 }
